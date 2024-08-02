@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { motion } from 'framer-motion'
 
 export default function Gestures() {
@@ -23,6 +23,10 @@ export default function Gestures() {
             }}
             whileHover={{scale: 1.05}}
             whileTap={{scale: 0.5, rotate: "2.5deg"}}
+            transition={{
+              duration: 0.125,
+              ease: "easeInOut"
+            }}
         >
                 Click Me
         </motion.button>

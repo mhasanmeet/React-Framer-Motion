@@ -4,3 +4,4 @@
 * install dependencies: `bun i`
 * Run Project `bun run dev`
 * Install Framer Motion: `bun add framer-motion`
+* Install React Router DOM: `bun add react-router-dom`

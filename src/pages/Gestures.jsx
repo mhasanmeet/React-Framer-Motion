@@ -8,6 +8,7 @@ export default function Gestures() {
         // height: "50rem",
         // justifyContent: "center",
         // alignItems: "center"
+        padding: "2rem"
     }} >
         <motion.button 
             className='btn'
